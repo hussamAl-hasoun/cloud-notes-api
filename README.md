@@ -16,4 +16,13 @@ This project demonstrates your skills in **Python**, **FastAPI**, **Docker**, an
 ---
 
 ## 📁 Project Structure
+fastapi-devops-project/
+├── app/
+│ ├── main.py # نقطة الدخول
+│ ├── models.py # نماذج قاعدة بيانات SQLAlchemy
+│ ├── schemas.py # مخططات Pydantic
+│ └── database.py # اتصال قاعدة البيانات (SQLite)
+├── Dockerfile
+├── requirements.txt
+└── README.md
 
